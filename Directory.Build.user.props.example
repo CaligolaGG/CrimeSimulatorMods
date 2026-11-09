@@ -1,0 +1,9 @@
+<Project>
+  <!-- Copy to Directory.Build.user.props and edit. That file is git-ignored. -->
+  <PropertyGroup>
+    <ThunderstoreTeam>YourTeamName</ThunderstoreTeam>
+    <CsGameDir>C:\Program Files (x86)\Steam\steamapps\common\Crime Simulator</CsGameDir>
+    <!-- r2modman uses %APPDATA%\r2modmanPlus-local\CrimeSimulator\profiles\<Name> -->
+    <CsProfileDir>$(APPDATA)\Thunderstore Mod Manager\DataFolder\CrimeSimulator\profiles\Default</CsProfileDir>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Most settings (framework, references, deploy, packaging) come from ../../Directory.Build.props/.targets -->
+  <PropertyGroup>
+    <AssemblyName>CaliMods</AssemblyName>
+    <RootNamespace>CaliMods</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>Quality-of-life features for Crime Simulator, toggled from a "Custom Mods" button in the pause menu.</Description>
+
+    <!-- Used by BepInEx.PluginInfoProps to generate MyPluginInfo -->
+    <BepInExPluginGuid>com.crimesimmods.calimods</BepInExPluginGuid>
+    <BepInExPluginName>CaliMods</BepInExPluginName>
+  </PropertyGroup>
+</Project>

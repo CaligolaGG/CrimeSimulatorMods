@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/mods/">
+    <Project Path="mods/CaliMods/CaliMods.csproj" />
+  </Folder>
+</Solution>
